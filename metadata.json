@@ -1,0 +1,8 @@
+{
+  "name": "IntelyRecruit Job Portal",
+  "description": "An AI-powered job portal with resume screening, candidate ranking, career roadmap, and interview generation capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
