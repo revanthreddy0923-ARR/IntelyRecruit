@@ -538,24 +538,6 @@ export default function CandidateView({
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
       
-      {/* Role Banner */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-3xl p-6 md:p-8 shadow-xl mb-8 relative overflow-hidden">
-        <div className="absolute right-0 bottom-0 top-0 opacity-10 flex items-center pr-12">
-          <Brain className="h-64 w-64 rotate-12" />
-        </div>
-        <div className="relative z-10 max-w-2xl">
-          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs font-semibold mb-4 border border-white/20">
-            <Sparkles className="h-3.5 w-3.5 text-yellow-300" />
-            <span>AI Career Development Hub</span>
-          </div>
-          <h2 className="font-display font-bold text-2xl md:text-4xl tracking-tight leading-tight">
-            Design Your Engineering Future, Accelerated by AI
-          </h2>
-          <p className="mt-3 text-sm md:text-base text-blue-100 leading-relaxed font-sans">
-            Build clean, highly compliant resumes, pinpoint engineering skill gaps, generate custom-guided roadmaps, and instantly verify your technical competencies with Google Gemini.
-          </p>
-        </div>
-      </div>
 
       {/* Profile Metrics and Navigation tabs */}
       <div className="flex flex-col lg:flex-row gap-8">
