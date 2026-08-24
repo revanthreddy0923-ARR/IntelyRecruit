@@ -665,4 +665,10 @@ async function startServer() {
   });
 }
 
-startServer();
+// Start the standalone Express server locally. On Vercel, the app is
+// imported by the serverless function in api/[...path].ts instead.
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
